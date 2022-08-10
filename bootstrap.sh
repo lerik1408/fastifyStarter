@@ -1,0 +1,1 @@
+sudo docker run --rm --name dock-redis -p 9999:6379 -d --mount type=volume,source=data,destination=/data redis
